@@ -27,12 +27,17 @@ body {
 
 .calculator {
     background-color: var(--app-element);
-    width: 500px;
-    padding: 50px;
+    /* width: 500px; */
+    padding-top: 40px;
+    width: 450px;
+    height: 300px;
     text-align: center;
     margin: auto;
-    margin-top: 100px;
     border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    box-shadow: 3px 5px 2px #141414;
 }
 
 h2 {
@@ -74,7 +79,6 @@ button {
   color: #fff;
   cursor: pointer;
   display: inline-flex;
-  /* font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif; */
   font-size: 16px;
   font-weight: 400;
   justify-content: center;
@@ -92,8 +96,7 @@ button {
   width: 150px;
 }
 
-.get-result:hover,
-.get-result:focus {
+.get-result:hover {
   background-color: var(--app-green);
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
@@ -102,11 +105,11 @@ button {
   transform: translateY(-1px);
 }
 
-.get-result:active {
+/* .get-result:active {
   background-color: #c85000;
   box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
   transform: translateY(0);
-}
+} */
 
 .get-result, .reset {
   align-items: center;
@@ -119,7 +122,6 @@ button {
   color: #fff;
   cursor: pointer;
   display: inline-flex;
-  /* font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif; */
   font-size: 16px;
   font-weight: 400;
   justify-content: center;
@@ -137,8 +139,7 @@ button {
   width: 150px;
 }
 
-.get-result:hover,
-.get-result:focus {
+.get-result:hover {
   background-color: var(--app-green);
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
@@ -148,7 +149,7 @@ button {
 }
 
 .get-result:active {
-  background-color: #c85000;
+  background-color: #4cc468;
   box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
   transform: translateY(0);
 }
