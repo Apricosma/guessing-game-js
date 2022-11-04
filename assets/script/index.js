@@ -59,7 +59,7 @@ onEvent('click', btn, function() {
             count = 1;
             randomValue = randomNumber(1, 100);
             bgColor.style.backgroundColor = 'var(--app-green)';
-            btn.disabled = true;
+            btn.style.display = 'none';
             btn.style.backgroundColor = 'var(--app-red)';
             clear.style.backgroundColor = 'var(--app-green)';
         }
@@ -73,7 +73,7 @@ onEvent('click', clear, function() {
     numberOne.value = ``;
     randomValue = randomNumber(1, 100);
     count = 1;
-    btn.disabled = false;
+    btn.style.display = 'inline-block';
     btn.style.backgroundColor = 'var(--app-purple)';
     bgColor.style.backgroundColor = 'var(--app-dark-bg)';
     restartNotif.innerText = ``;
