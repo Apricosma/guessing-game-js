@@ -40,7 +40,6 @@ function randomNumber(min, max) {
 let win = false;
 let count = 1;
 let randomValue = randomNumber(1, 100);
-console.log(randomValue);
 
 // adding an event listener
 onEvent('click', btn, function() {
