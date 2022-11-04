@@ -52,6 +52,10 @@ h2 {
     font-size: 20px;
 }
 
+.notif-restart {
+    color: var(--app-green);
+}
+
 
 input[type="text"] {
     padding: 5px;
