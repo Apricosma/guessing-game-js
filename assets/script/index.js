@@ -24,6 +24,7 @@ function select(selector, parent = document) {
     return parent.querySelector(selector);
 }
 
+// number validation
 function isNumber(str) {
     let input = str.trim();
 
@@ -33,6 +34,7 @@ function isNumber(str) {
     return false;
 }
 
+// basic random number generation
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
 }
